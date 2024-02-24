@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>Mi primer proyecto</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./IMAGENES/logo depresion.webp" alt="logo de depresión">
+        </div>
+
+        <nav>
+            <ul>
+                <a href="https://youtu.be/X_isIs5PDGU?si=BxF8PvEqP0bStuWO"><li>¿Qué es la depresión?</li></a>
+                <a href="https://youtu.be/pawb0AUPesU?si=PQvSV4EFoATZ1YQO"><li>Consecuencias es la depresión</li></a>
+                <a href="https://psicologos.mx/ayuda-psicologica/"><li>Ayuda psicológica gratuita en México</li></a>
+                <a href="https://www.gob.mx/salud/acciones-y-programas/directorio-de-unidades-de-salud-mental"><li>Directorio de Unidades de Salud Mental</li></a>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="presentacion">
+        <h1>QUIÉNES SOMOS</h1>
+        <p>Nuestra organización se dedica a difundir información sobre la depresión con el objetivo de concienciar y visibilizar esta enfermedad mental.
+        Además, ofrecemos un amplio repertorio de recursos e información relacionada con la depresión para apoyar a quienes la padecen y a sus seres queridos.</p>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMAGENES/depre 1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGENES/depre 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGENES/depre 3.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container fluid">
+        <h1>Hay heridas que nunca se ven en el cuerpo que son más profundas y dolorosas que cualquiera que sangre.</h1>
+    </div>
+</div>
+
+    <div class="contenedor">
+        <div class="caja">
+            <div class="noticias">
+            <img src="./IMAGENES/Sintomas.webp" alt="Síntomas">
+            <h1>SINTOMAS</h1>
+            </div>
+            <p>Algunos sintomas son los siguientes:</p>
+            <div id="contenido3">
+        <ul>
+            <li>Sentimientos de tristeza, ganas de llorar, vacío o desesperanza</li>
+            <li>Arrebatos de enojo, irritabilidad o frustración, incluso por asuntos de poca importancia</li> 
+            <li>Pérdida de interés o placer por la mayoría de las actividades habituales o todas, como las relaciones sexuales, los pasatiempos o los deportes</li>
+        </ul>
+        </div>
+        <button onclick='muestra_oculta("contenido3")'class="btn btn-primary" form="contenido3">+</button>
+        </div>
+        <div class="caja">
+            <div class="noticias">
+            <img src="./IMAGENES/causas.webp" alt="Causas">
+            <h1>CAUSAS</h1>
+            </div>
+            <p>Al igual que sucede con muchos trastornos mentales, puede comprender diversos factores, como:</p>
+            <div id="contenido2">
+        <ul>
+            <li>Factores genéticos</li>
+            <li> Factores fisiológicos</li>
+            <li> Factores personales</li>
+            <li>Factores ambientales</li>
+        </ul>
+        </div>
+        <button onclick='muestra_oculta("contenido2")'class="btn btn-primary" form="contenido2">+</button>
+        </div>
+
+        <div class="caja">
+            <div class="noticias">
+            <img src="./IMAGENES/tratamiento.webp" alt="Tratamientos existentes">
+            <h1>TRATAMIENTO</h1>
+            </div>
+            <p>La depresión es tratable y, por lo general, el manejo de los síntomas involucra tres componentes:</p>
+            <div id="contenido">
+            <ul>
+                <li>Apoyo: esto puede ir desde discutir soluciones prácticas y posibles causas hasta educar a los miembros de la familia.</li>
+                <li>Psicoterapia: también conocida como terapia de conversación, algunas opciones incluyen el asesoramiento personalizado y la terapia cognitivo-conductual (TCC).</li>
+                <li>Tratamiento con medicamentos: un médico puede recetar antidepresivos.</li>
+            </ul>
+        </div>
+            <button onclick='muestra_oculta("contenido")'class="btn btn-primary" form="contenido">+</button>
+        </div>
+
+    </div>
+        <div id="nosotros">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d240964.54466201636!2d-99.5079146!3d19.3227247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdff973a94ee5f%3A0x6e141e511d3762dc!2sConsejo%20Nacional%20de%20Salud%20Metal!5e0!3m2!1ses-419!2smx!4v1708745395471!5m2!1ses-419!2smx" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iRWNU2hTyGg?si=X7ITYeKkR6GSmPIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+<div class="container fluid">
+    <footer>
+        <p>Ana Fernanda Hernandez Herrera| ©2024 </p>
+    </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
